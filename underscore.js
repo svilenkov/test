@@ -7,7 +7,7 @@
 
   // Baseline setup
   // --------------
-
+  // Setup setup baby
   // Establish the root object, `window` (`self`) in the browser, `global`
   // on the server, or `this` in some virtual machines. We use `self`
   // instead of `window` for `WebWorker` support.
@@ -1592,7 +1592,7 @@
       "print=function(){__p+=__j.call(arguments,'');};\n" +
       source + 'return __p;\n';
 
-    var render;
+    var render; // render ain't no gender
     try {
       render = new Function(settings.variable || 'obj', '_', source);
     } catch (e) {
